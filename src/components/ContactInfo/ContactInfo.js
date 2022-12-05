@@ -11,9 +11,17 @@ const ContactInfo = () => {
             andriikapustnikov@gmail.com
           </a>
         </li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>
+          <a href="https://www.linkedin.com/in/andrii-kapustnikov-473925254/">
+            Linkedin
+          </a>
+        </li>
+        <li>
+          <a href="https://djinni.co/q/01f7dd72a3/">Djinni</a>
+        </li>
+        <li>
+          <p>Kyiv, Ukraine</p>
+        </li>
       </ul>
     </div>
   );
