@@ -1,26 +1,55 @@
+import { BsTelephone } from 'react-icons/bs';
+import { FiMail } from 'react-icons/fi';
+import { AiOutlineLinkedin, AiOutlineIdcard } from 'react-icons/ai';
+import { HiOutlineLocationMarker } from 'react-icons/hi';
+
 const ContactInfo = () => {
   return (
     <div>
       <h2>Contact information</h2>
       <ul>
         <li>
-          <a href="tel:+380934066204">+380934066204</a>
+          <a href="tel:+380934066204">
+            <BsTelephone /> +380934066204
+          </a>
         </li>
         <li>
-          <a href="mailto:andriikapustnikov@gmail.com">
+          <a
+            target="_blank"
+            href="mailto:andriikapustnikov@gmail.com"
+            rel="noreferrer"
+          >
+            {' '}
+            <FiMail />
             andriikapustnikov@gmail.com
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/andrii-kapustnikov-473925254/">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/andrii-kapustnikov-473925254/"
+            rel="noreferrer"
+          >
+            {' '}
+            <AiOutlineLinkedin />
             Linkedin
           </a>
         </li>
         <li>
-          <a href="https://djinni.co/q/01f7dd72a3/">Djinni</a>
+          <a
+            target="_blank"
+            href="https://djinni.co/q/01f7dd72a3/"
+            rel="noreferrer"
+          >
+            {' '}
+            <AiOutlineIdcard />
+            Djinni
+          </a>
         </li>
         <li>
-          <p>Kyiv, Ukraine</p>
+          <p>
+            <HiOutlineLocationMarker /> Kyiv, Ukraine
+          </p>
         </li>
       </ul>
     </div>
