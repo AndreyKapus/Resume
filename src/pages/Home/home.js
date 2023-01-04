@@ -6,6 +6,7 @@ import ProfileImage from '../../components/photo/photo';
 import Header from '../../components/Header/Header';
 import Navigation from '../../components/Navigation/Navigation';
 import { HomePage, HeaderStyledWrapper } from './HomePage.styled';
+import { Outlet } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <HeaderStyledWrapper>
         <Header />
         <Navigation />
+        <Outlet />
       </HeaderStyledWrapper>
     </HomePage>
   );

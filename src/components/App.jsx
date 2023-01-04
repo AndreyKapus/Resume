@@ -1,14 +1,20 @@
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from 'pages/Home/home';
 import AboutMe from '../pages/AboutMe/aboutMe';
-import Navigation from './Navigation/Navigation';
+import WorkExpirience from './WorkExpirience/WorkExpirience';
+import Education from './Education/Education';
+import Projects from './Projects/Projects';
 
 export const App = () => {
   return (
     <div>
-      <Home />
       <Routes>
-        <Route path="/" element={<AboutMe />} />
+        <Route path="/" element={<Home />}>
+          <Route path="/about" element={<AboutMe />} />
+          <Route path="/expirience" element={<WorkExpirience />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/projects" element={<Projects />} />
+        </Route>
       </Routes>
     </div>
   );

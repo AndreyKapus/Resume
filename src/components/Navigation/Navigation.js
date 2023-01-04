@@ -5,18 +5,18 @@ const Navigation = () => {
     <nav>
       <ul>
         <li>
-          <NavLink to="/" end>
+          <NavLink to="/about" end>
             About me
           </NavLink>
         </li>
         <li>
-          <NavLink>Work experience</NavLink>
+          <NavLink to="expirience">Work experience</NavLink>
         </li>
         <li>
-          <NavLink>Education</NavLink>
+          <NavLink to="education">Education</NavLink>
         </li>
         <li>
-          <NavLink>Projects</NavLink>
+          <NavLink to="projects">Projects</NavLink>
         </li>
       </ul>
     </nav>
