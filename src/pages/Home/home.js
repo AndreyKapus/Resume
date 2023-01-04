@@ -5,19 +5,23 @@ import Languages from '../../components/Languages/Languages';
 import ProfileImage from '../../components/photo/photo';
 import Header from '../../components/Header/Header';
 import Navigation from '../../components/Navigation/Navigation';
-import { HomePage, HeaderStyledWrapper } from './HomePage.styled';
+import {
+  HomePage,
+  HeaderStyledWrapper,
+  StyledSideBar,
+} from './HomePage.styled';
 import { Outlet } from 'react-router-dom';
 
 const Home = () => {
   return (
     <HomePage>
-      <div>
+      <StyledSideBar>
         <ProfileImage />
         <ContactInfo />
         <TechSkills />
         <SoftSkills />
         <Languages />
-      </div>
+      </StyledSideBar>
       <HeaderStyledWrapper>
         <Header />
         <Navigation />
