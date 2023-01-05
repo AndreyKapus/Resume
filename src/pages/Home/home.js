@@ -9,6 +9,7 @@ import {
   HomePage,
   HeaderStyledWrapper,
   StyledSideBar,
+  Info,
 } from './HomePage.styled';
 import { Outlet } from 'react-router-dom';
 
@@ -17,10 +18,12 @@ const Home = () => {
     <HomePage>
       <StyledSideBar>
         <ProfileImage />
-        <ContactInfo />
-        <TechSkills />
-        <SoftSkills />
-        <Languages />
+        <Info>
+          <ContactInfo />
+          <TechSkills />
+          <SoftSkills />
+          <Languages />
+        </Info>
       </StyledSideBar>
       <HeaderStyledWrapper>
         <Header />

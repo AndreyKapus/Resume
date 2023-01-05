@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from 'pages/Home/home';
-import AboutMe from '../pages/AboutMe/aboutMe';
+import AboutMe from './AboutMe/aboutMe';
 import WorkExpirience from './WorkExpirience/WorkExpirience';
 import Education from './Education/Education';
 import Projects from './Projects/Projects';
