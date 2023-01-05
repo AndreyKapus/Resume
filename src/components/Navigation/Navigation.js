@@ -1,24 +1,25 @@
 import { NavLink } from 'react-router-dom';
+import { NavigationList, NavListItem } from './Navigation.styled';
 
 const Navigation = () => {
   return (
     <nav>
-      <ul>
-        <li>
+      <NavigationList>
+        <NavListItem>
           <NavLink to="/about" end>
             About me
           </NavLink>
-        </li>
-        <li>
+        </NavListItem>
+        <NavListItem>
           <NavLink to="expirience">Work experience</NavLink>
-        </li>
-        <li>
+        </NavListItem>
+        <NavListItem>
           <NavLink to="education">Education</NavLink>
-        </li>
-        <li>
+        </NavListItem>
+        <NavListItem>
           <NavLink to="projects">Projects</NavLink>
-        </li>
-      </ul>
+        </NavListItem>
+      </NavigationList>
     </nav>
   );
 };
