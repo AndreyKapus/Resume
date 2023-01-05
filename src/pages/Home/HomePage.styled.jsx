@@ -5,8 +5,6 @@ export const HomePage = styled.div`
   justify-content: center;
   padding-left: 50px;
   padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
 `;
 
 export const HeaderStyledWrapper = styled.div`
@@ -18,7 +16,6 @@ export const HeaderStyledWrapper = styled.div`
 export const StyledSideBar = styled.div`
   color: #000000;
   background-color: #c0c0c2;
-  font-family: montserrat;
 `;
 
 export const Info = styled.div`

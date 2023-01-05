@@ -1,23 +1,26 @@
-import { NavLink } from 'react-router-dom';
-import { NavigationList, NavListItem } from './Navigation.styled';
+import {
+  NavigationList,
+  NavListItem,
+  NavigationLink,
+} from './Navigation.styled';
 
 const Navigation = () => {
   return (
     <nav>
       <NavigationList>
         <NavListItem>
-          <NavLink to="/about" end>
+          <NavigationLink to="/about" end>
             About me
-          </NavLink>
+          </NavigationLink>
         </NavListItem>
         <NavListItem>
-          <NavLink to="expirience">Work experience</NavLink>
+          <NavigationLink to="expirience">Work experience</NavigationLink>
         </NavListItem>
         <NavListItem>
-          <NavLink to="education">Education</NavLink>
+          <NavigationLink to="education">Education</NavigationLink>
         </NavListItem>
         <NavListItem>
-          <NavLink to="projects">Projects</NavLink>
+          <NavigationLink to="projects">Projects</NavigationLink>
         </NavListItem>
       </NavigationList>
     </nav>
