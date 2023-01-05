@@ -12,13 +12,13 @@ export const HomePage = styled.div`
 export const HeaderStyledWrapper = styled.div`
   text-align: center;
   width: 800px;
+  background-color: #edecef;
 `;
 
 export const StyledSideBar = styled.div`
   color: #000000;
   background-color: #c0c0c2;
   font-family: montserrat;
-  margin-right: 30px;
 `;
 
 export const Info = styled.div`

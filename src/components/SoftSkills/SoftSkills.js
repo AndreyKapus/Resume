@@ -1,17 +1,23 @@
+import {
+  SoftSkillsTitle,
+  SoftSkillsLi,
+  SoftSkillsUl,
+} from './SoftSkills.styled';
+
 const SoftSkills = () => {
   return (
     <div>
-      <h2>Soft skills</h2>
-      <ul>
-        <li>Broad-minded</li>
-        <li>Calm</li>
-        <li>Reliablе</li>
-        <li>Determined</li>
-        <li>Eager to learn</li>
-        <li>Punctual</li>
-        <li>Conflict management skills</li>
-        <li>Decision making skills</li>
-      </ul>
+      <SoftSkillsTitle>Soft skills</SoftSkillsTitle>
+      <SoftSkillsUl>
+        <SoftSkillsLi>Broad-minded</SoftSkillsLi>
+        <SoftSkillsLi>Calm</SoftSkillsLi>
+        <SoftSkillsLi>Reliablе</SoftSkillsLi>
+        <SoftSkillsLi>Determined</SoftSkillsLi>
+        <SoftSkillsLi>Eager to learn</SoftSkillsLi>
+        <SoftSkillsLi>Punctual</SoftSkillsLi>
+        <SoftSkillsLi>Conflict management skills</SoftSkillsLi>
+        <SoftSkillsLi>Decision making skills</SoftSkillsLi>
+      </SoftSkillsUl>
     </div>
   );
 };

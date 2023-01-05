@@ -1,22 +1,29 @@
+import {
+  TechSkillsTitle,
+  TechSkillsLi,
+  TechSkillsUl,
+} from './TechSkils.styled';
+
 const TechSkills = () => {
   return (
     <div>
-      <h2>Tech Skills</h2>
-      <ul>
-        <li>HTML/CSS/SASS</li>
-        <li>Java Script</li>
-        <li>React</li>
-        <li>Redux</li>
-        <li>Node.JS</li>
-        <li>REST API</li>
-        <li>Webpack</li>
-        <li>Parcel</li>
-        <li>Handlebars</li>
-        <li>MongoDB</li>
-        <li>Type Script</li>
-        <li>Git</li>
-        <li>Responsive/Adaptive design</li>
-      </ul>
+      <TechSkillsTitle>Tech Skills</TechSkillsTitle>
+      <TechSkillsUl>
+        <TechSkillsLi>HTML/CSS/SASS</TechSkillsLi>
+        <TechSkillsLi>Java Script</TechSkillsLi>
+        <TechSkillsLi>React</TechSkillsLi>
+        <TechSkillsLi>Redux</TechSkillsLi>
+        <TechSkillsLi>React native</TechSkillsLi>
+        <TechSkillsLi>Node.JS</TechSkillsLi>
+        <TechSkillsLi>REST API</TechSkillsLi>
+        <TechSkillsLi>Webpack</TechSkillsLi>
+        <TechSkillsLi>Parcel</TechSkillsLi>
+        <TechSkillsLi>Handlebars</TechSkillsLi>
+        <TechSkillsLi>MongoDB</TechSkillsLi>
+        <TechSkillsLi>Type Script</TechSkillsLi>
+        <TechSkillsLi>Git</TechSkillsLi>
+        <TechSkillsLi>Responsive/Adaptive design</TechSkillsLi>
+      </TechSkillsUl>
     </div>
   );
 };

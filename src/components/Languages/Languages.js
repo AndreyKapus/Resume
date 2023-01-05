@@ -1,12 +1,14 @@
+import { LanguagesTitle, LanguagesLi, LanguagesUl } from './Langueges.styled';
+
 const Languages = () => {
   return (
     <div>
-      <h2>Languages</h2>
-      <ul>
-        <li>Ukrainian - Native</li>
-        <li>Russian - Native</li>
-        <li>English - Intermediate</li>
-      </ul>
+      <LanguagesTitle>Languages</LanguagesTitle>
+      <LanguagesUl>
+        <LanguagesLi>Ukrainian - Native</LanguagesLi>
+        <LanguagesLi>Russian - Native</LanguagesLi>
+        <LanguagesLi>English - Intermediate</LanguagesLi>
+      </LanguagesUl>
     </div>
   );
 };

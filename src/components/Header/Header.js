@@ -1,9 +1,18 @@
+import {
+  HeaderBox,
+  HeaderTitle,
+  HeaderWrapper,
+  HeaderSubtitle,
+} from './Header.styled';
+
 const Header = () => {
   return (
-    <div>
-      <h1>Kapustnikov Andrii</h1>
-      <p>Fulstack developer</p>
-    </div>
+    <HeaderBox>
+      <HeaderWrapper>
+        <HeaderTitle>Kapustnikov Andrii</HeaderTitle>
+        <HeaderSubtitle>Fulstack developer</HeaderSubtitle>
+      </HeaderWrapper>
+    </HeaderBox>
   );
 };
 
