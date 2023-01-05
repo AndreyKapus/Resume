@@ -16,4 +16,6 @@ export const AboutMeText = styled.p`
   font-family: Georgia, serif;
   font-size: 18px;
   text-align: left;
+  margin-top: 30px;
+  margin-bottom: 0px;
 `;
