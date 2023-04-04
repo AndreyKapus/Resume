@@ -10,6 +10,7 @@ export const AboutMeTittle = styled.h3`
   margin-bottom: 0px;
   font-family: Georgia, serif;
   font-size: 26px;
+  color: #D4D4D4;
 `;
 
 export const AboutMeText = styled.p`
@@ -18,4 +19,5 @@ export const AboutMeText = styled.p`
   text-align: left;
   margin-top: 30px;
   margin-bottom: 0px;
+  color: #D4D4D4;
 `;

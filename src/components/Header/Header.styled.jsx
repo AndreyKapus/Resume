@@ -11,8 +11,8 @@ export const HeaderTitle = styled.h1`
 
   font-family: Georgia, serif;
   font-size: 48px;
-  border-bottom: 1px solid black;
-  color: #000000;
+  border-bottom: 1px solid #D4D4D4;
+  color: #D4D4D4;
 `;
 
 export const HeaderWrapper = styled.div`
@@ -28,4 +28,5 @@ export const HeaderSubtitle = styled.p`
   margin-bottom: 0px;
   font-family: Georgia, serif;
   font-size: 26px;
+  color: #D4D4D4;
 `;

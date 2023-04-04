@@ -9,7 +9,7 @@ const Navigation = () => {
     <nav>
       <NavigationList>
         <NavListItem>
-          <NavigationLink to="/about" end>
+          <NavigationLink to="/" end>
             About me
           </NavigationLink>
         </NavListItem>
