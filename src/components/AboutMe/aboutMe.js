@@ -1,3 +1,4 @@
+
 import { AboutMeWrapper, AboutMeTittle, AboutMeText } from './AboutMe.styled';
 
 const AboutMe = () => {
@@ -11,6 +12,7 @@ const AboutMe = () => {
         JavaScript, React, Node.js, and experience of working in a team (Agile
         and Scrum methodology). I am responsible, determined and eager to learn
       </AboutMeText>
+
     </AboutMeWrapper>
   );
 };
