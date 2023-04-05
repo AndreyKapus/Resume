@@ -10,12 +10,12 @@ export const HomePage = styled.div`
 export const HeaderStyledWrapper = styled.div`
   text-align: center;
   width: 800px;
-  background-color: #3e3e3e;
+  background-color: ${p => p.theme.colors.primaryBgColor};
 `;
 
 export const StyledSideBar = styled.div`
   color: #000000;
-  background-color: #1E1E1E;
+  background-color: ${p => p.theme.colors.secondaryBgColor};
 `;
 
 export const Info = styled.div`

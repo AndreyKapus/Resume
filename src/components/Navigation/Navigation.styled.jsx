@@ -4,14 +4,14 @@ import { NavLink } from 'react-router-dom';
 export const NavigationList = styled.ul`
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-left: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
-  background-color: #1E1E1E;
+  background-color: ${p => p.theme.colors.secondaryBgColor};
 `;
 
 export const NavListItem = styled.li`
