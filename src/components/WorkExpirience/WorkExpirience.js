@@ -22,6 +22,7 @@ const WorkExpirience = () => {
             <RestListItem>Increased customer loyalty</RestListItem>
             <RestListItem>Сontracting</RestListItem>
             <RestListItem>Tracking accounts receivable</RestListItem>
+            <RestListItem>Sales</RestListItem>
           </RespUl>
         </ExpListItem>
       </ExpList>

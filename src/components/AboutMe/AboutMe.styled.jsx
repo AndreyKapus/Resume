@@ -5,6 +5,7 @@ export const AboutMeWrapper = styled.div`
   margin-top: 30px;
   margin-left: 50px;
   margin-right: 50px;
+  border-radius: 5px;
   border: ${p => p.theme.colors.accent};
   box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
   1px 2px 4px 0px rgba(0,255,255,0.7),
