@@ -2,6 +2,7 @@ import { BsTelephone } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
 import { AiOutlineLinkedin, AiOutlineIdcard } from 'react-icons/ai';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
+import { useState } from 'react';
 import {
   Title,
   ContactList,
@@ -10,8 +11,19 @@ import {
   ContactLinkText,
   ContactLocation,
 } from './ContactInfo.styled';
+import MapModal from 'components/Modal/MapModal';
 
 const ContactInfo = () => {
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
   return (
     <div>
       <Title>Contact information</Title>
@@ -58,10 +70,11 @@ const ContactInfo = () => {
         <ContactListItem>
           <ContactLocation>
             <HiOutlineLocationMarker />
-            <ContactLinkText>Kyiv, Ukraine</ContactLinkText>
+            <ContactLinkText onClick={() => openModal()}>Kyiv, Ukraine</ContactLinkText>
           </ContactLocation>
         </ContactListItem>
       </ContactList>
+      <MapModal modalIsOpen={modalIsOpen} closeModal={closeModal}/>
     </div>
   );
 };
