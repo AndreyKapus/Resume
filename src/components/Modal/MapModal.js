@@ -4,6 +4,7 @@ import { GoogleMap } from '@react-google-maps/api';
 import { Marker } from '@react-google-maps/api';
 import { useJsApiLoader } from '@react-google-maps/api';
 import {CloseMapBtn} from './Modal.styles'
+import { RiCloseLine } from 'react-icons/ri';
 
 const MARKER_KEY = "AIzaSyA18isizDhB7dc7B3Ujq4VIbYV0iA-HnDE"
 
@@ -35,7 +36,7 @@ const MapModal = ({modalIsOpen, closeModal}) => {
         onRequestClose={closeModal}
         style={customStyles}
       >
-        <CloseMapBtn onClick={closeModal}>close</CloseMapBtn>
+        <CloseMapBtn onClick={closeModal}><RiCloseLine style={{ fontSize: 25 }}/></CloseMapBtn>
 
 {  isLoaded && <GoogleMap
           mapContainerStyle={containerStyle}
