@@ -67,7 +67,10 @@ export const ProjectLink = styled.a`
 color: ${p => p.theme.colors.accent};
 :not(:first-of-type) {
   margin-left: 30px;
-}
+};
+:hover {
+  color: white;
+  transition-duration: 300ms;
 
 `
 

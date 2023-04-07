@@ -31,7 +31,9 @@ export const ContactListLink = styled.a`
   display: flex;
   align-items: center;
   :hover {
-    color: rgba(0,255,255,0.7);
+    color: ${p => p.theme.colors.accent};
+    transform: scale(1.1);
+    transition-duration: 300ms;
   }
 `;
 
@@ -43,6 +45,8 @@ export const ContactLocation = styled.p`
   margin-top: 5px;
   margin-bottom: 0px;
   :hover {
-    color: white;
+    color: ${p => p.theme.colors.accent};
+    transform: scale(1.1);
+    transition-duration: 300ms;
   }
 `;

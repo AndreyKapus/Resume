@@ -28,7 +28,8 @@ export const NavigationLink = styled(NavLink)`
   padding: 8px;
   border-radius: 5px;
   :hover {
-    color: rgba(0,255,255,0.7);
+    color: ${p => p.theme.colors.accent};
+    transition-duration: 300ms;
 
   }
   &.active {

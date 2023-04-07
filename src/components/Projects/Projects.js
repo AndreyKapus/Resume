@@ -4,6 +4,42 @@ const Projects = () => {
   return (
     <div>
       <ProjectList>
+      <ProjectListItem>
+          <ProjectsTitle>
+            Petly
+          </ProjectsTitle>
+          <ProjectText>Application to create your own movie library. Team project</ProjectText>
+          <ProjectSubtitle>
+            [ HTML, SASS, responsive design, JS, React, Node.JS Axios, REST Api,
+            parcel ]
+          </ProjectSubtitle>
+          <ProjectRole>Role:</ProjectRole>
+          <RoleList>
+            <RoleListItem>Implement uploading of popular movies to the main page</RoleListItem>
+            <RoleListItem>Make a single film card template</RoleListItem>
+            <RoleListItem>
+              Create a modal-window template for one film (mobile phone, tablet,
+              desktop)
+            </RoleListItem>
+          </RoleList>
+          <ProjectLinksWrapper>
+          <ProjectLink
+            target="_blank"
+            href="victoriamyzyniuk.github.io/JS-project-07/"
+            rel="noreferrer"
+          >
+            Live page
+          </ProjectLink>
+          <ProjectLink
+            target="_blank"
+            href="https://github.com/VictoriaMyzyniuk/JS-project-07.git"
+            rel="noreferrer"
+          >
+            Github repository
+          </ProjectLink>
+          </ProjectLinksWrapper>
+
+        </ProjectListItem>
         <ProjectListItem>
           <ProjectsTitle>Web studio</ProjectsTitle>
           <ProjectText>Website for web studio with responsive design.</ProjectText>
