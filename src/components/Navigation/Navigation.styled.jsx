@@ -18,13 +18,13 @@ export const NavListItem = styled.li`
   :not(:first-of-type) {
     margin-left: 20px;
   }
-  font-size: 26px;
+  font-size: ${p => p.theme.fontSizes.titles};
 `;
 
 export const NavigationLink = styled(NavLink)`
   text-decoration: underline;
   font-family: ${p => p.theme.fonts.primaryFont};
-  color: white;
+  color: ${p => p.theme.colors.primaryTextColor};
   padding: 8px;
   border-radius: 5px;
   :hover {

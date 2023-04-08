@@ -7,10 +7,10 @@ export const AboutMeWrapper = styled.div`
   margin-right: 50px;
   border-radius: 5px;
   border: ${p => p.theme.colors.accent};
-  box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
-  1px 2px 4px 0px rgba(0,255,255,0.7),
-  2px 4px 8px 0px rgba(0,255,255,0.7),
-  2px 4px 16px 0px rgba(0,255,255,0.7);
+  box-shadow: 0px 1px 2px 0px ${p => p.theme.colors.accent},
+  1px 2px 4px 0px ${p => p.theme.colors.accent},
+  2px 4px 8px 0px ${p => p.theme.colors.accent},
+  2px 4px 16px 0px ${p => p.theme.colors.accent};
 `;
 
 export const AboutMeTittle = styled.h3`

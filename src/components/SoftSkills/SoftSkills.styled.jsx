@@ -11,7 +11,7 @@ export const SoftSkillsTitle = styled.h2`
 
 export const SoftSkillsLi = styled.li`
   font-family: ${p => p.theme.fonts.contactsFont};
-  font-size: 16px;
+  font-size: ${p => p.theme.fontSizes.secondaryText};
   color: ${p => p.theme.colors.primaryTextColor};
   :not(:first-of-type) {
     margin-top: 5px;

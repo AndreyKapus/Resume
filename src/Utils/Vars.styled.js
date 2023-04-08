@@ -7,13 +7,16 @@ export const theme = {
   },
 
   fontSizes: {
+    mainTitle: '48px',
     titles: '26px',
     primaryText: '18px',
     secondaryText: '16px',
   },
 
   fonts: {
-    primaryFont: 'Georgia,serif',
+    primaryFont: 'Source Code Pro',
     contactsFont: 'Verdana, sans-serif',
   }
 }
+
+// Georgia,serif

@@ -9,8 +9,8 @@ export const HeaderTitle = styled.h1`
   margin-top: 0px;
   margin-bottom: 0px;
 
-  font-family: Georgia, serif;
-  font-size: 48px;
+  font-family: ${p => p.theme.fonts.primaryFont};
+  font-size: ${p => p.theme.fontSizes.mainTitle};
   border-bottom: 1px solid ${p => p.theme.colors.primaryTextColor};
   color: ${p => p.theme.colors.primaryTextColor};
 `;
@@ -27,6 +27,6 @@ export const HeaderSubtitle = styled.p`
   margin-top: 30px;
   margin-bottom: 0px;
   font-family: ${p => p.theme.fonts.primaryFont};
-  font-size: 26px;
+  font-size: ${p => p.theme.fontSizes.titles};
   color: ${p => p.theme.colors.primaryTextColor};
 `;

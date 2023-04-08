@@ -4,8 +4,8 @@ import { theme } from 'Utils/Vars.styled';
 export const Title = styled.h2`
   color: ${p => p.theme.colors.accent};
   font-family: ${p => p.theme.fonts.primaryFont};
-  font-size: 26px;
-  border-bottom: 2px solid rgba(0,255,255,0.7);
+  font-size: ${p => p.theme.fontSizes.titles};
+  border-bottom: 2px solid ${p => p.theme.colors.accent};
   margin-bottom: 0px;
   margin-top: 30px;
 `;
@@ -20,7 +20,7 @@ export const ContactList = styled.ul`
 
 export const ContactListItem = styled.li`
   font-family: ${p => p.theme.fonts.contactsFont};
-  font-size: 16px;
+  font-size: ${p => p.theme.fontSizes.secondaryText};
   margin-bottom: 5px;
   cursor: pointer;
   color: ${p => p.theme.colors.primaryTextColor};
