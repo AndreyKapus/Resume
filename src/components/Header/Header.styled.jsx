@@ -11,8 +11,8 @@ export const HeaderTitle = styled.h1`
 
   font-family: Georgia, serif;
   font-size: 48px;
-  border-bottom: 1px solid #D4D4D4;
-  color: #D4D4D4;
+  border-bottom: 1px solid ${p => p.theme.colors.primaryTextColor};
+  color: ${p => p.theme.colors.primaryTextColor};
 `;
 
 export const HeaderWrapper = styled.div`
@@ -26,7 +26,7 @@ export const HeaderWrapper = styled.div`
 export const HeaderSubtitle = styled.p`
   margin-top: 30px;
   margin-bottom: 0px;
-  font-family: Georgia, serif;
+  font-family: ${p => p.theme.fonts.primaryFont};
   font-size: 26px;
-  color: #D4D4D4;
+  color: ${p => p.theme.colors.primaryTextColor};
 `;

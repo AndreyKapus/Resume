@@ -1,8 +1,9 @@
 import styled from '@emotion/styled';
+import { theme } from 'Utils/Vars.styled';
 
 export const Title = styled.h2`
-  color: rgba(0,255,255,0.7);
-  font-family: Georgia, serif;
+  color: ${p => p.theme.colors.accent};
+  font-family: ${p => p.theme.fonts.primaryFont};
   font-size: 26px;
   border-bottom: 2px solid rgba(0,255,255,0.7);
   margin-bottom: 0px;
@@ -14,20 +15,20 @@ export const ContactList = styled.ul`
   padding-left: 20px;
   margin-top: 30px;
   margin-bottom: 0px;
-  color: #D4D4D4;
+  color: ${p => theme.colors.primaryTextColor};
 `;
 
 export const ContactListItem = styled.li`
-  font-family: Verdana, sans-serif;
+  font-family: ${p => p.theme.fonts.contactsFont};
   font-size: 16px;
   margin-bottom: 5px;
   cursor: pointer;
-  color: #D4D4D4
+  color: ${p => p.theme.colors.primaryTextColor};
 `;
 
 export const ContactListLink = styled.a`
   text-decoration: none;
-  color: #D4D4D4;
+  color: ${p => p.theme.colors.primaryTextColor};
   display: flex;
   align-items: center;
   :hover {

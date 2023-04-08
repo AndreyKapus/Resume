@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const SoftSkillsTitle = styled.h2`
   color: ${p => p.theme.colors.accent};
-  font-family: Georgia, serif;
+  font-family: ${p => p.theme.fonts.primaryFont};
   font-size: 26px;
   border-bottom: 2px solid ${p => p.theme.colors.accent};
   margin-bottom: 0px;
@@ -10,7 +10,7 @@ export const SoftSkillsTitle = styled.h2`
 `;
 
 export const SoftSkillsLi = styled.li`
-  font-family: Verdana, sans-serif;
+  font-family: ${p => p.theme.fonts.contactsFont};
   font-size: 16px;
   color: ${p => p.theme.colors.primaryTextColor};
   :not(:first-of-type) {

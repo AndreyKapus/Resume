@@ -14,5 +14,6 @@ export const theme = {
 
   fonts: {
     primaryFont: 'Georgia,serif',
+    contactsFont: 'Verdana, sans-serif',
   }
 }

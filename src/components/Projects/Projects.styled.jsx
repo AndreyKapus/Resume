@@ -11,7 +11,7 @@ export const ProjectList = styled.ul`
 export const ProjectListItem = styled.li`
 border-radius: 5px;
 border: ${p => p.theme.colors.accent};
-box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+box-shadow: 0px 1px 2px 0px ${p => p.theme.colors.accent},
 1px 2px 4px 0px rgba(0,255,255,0.7),
 2px 4px 8px 0px rgba(0,255,255,0.7),
 2px 4px 16px 0px rgba(0,255,255,0.7);

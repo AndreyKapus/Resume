@@ -23,7 +23,7 @@ export const NavListItem = styled.li`
 
 export const NavigationLink = styled(NavLink)`
   text-decoration: underline;
-  font-family: Georgia, serif;
+  font-family: ${p => p.theme.fonts.primaryFont};
   color: white;
   padding: 8px;
   border-radius: 5px;
@@ -33,10 +33,10 @@ export const NavigationLink = styled(NavLink)`
 
   }
   &.active {
-    color: rgba(0,255,255,0.7);
-    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
-    1px 2px 4px 0px rgba(0,255,255,0.7),
-    2px 4px 8px 0px rgba(0,255,255,0.7),
-    2px 4px 16px 0px rgba(0,255,255,0.7);
+    color: ${p => p.theme.colors.accent};
+    box-shadow: 0px 1px 2px 0px ${p => p.theme.colors.accent},
+    1px 2px 4px 0px ${p => p.theme.colors.accent},
+    2px 4px 8px 0px ${p => p.theme.colors.accent},
+    2px 4px 16px 0px ${p => p.theme.colors.accent};
   }
 `;
