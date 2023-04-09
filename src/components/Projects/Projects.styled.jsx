@@ -30,7 +30,9 @@ export const ProjectSubtitle = styled.p`
 color: ${p => p.theme.colors.primaryTextColor};
 font-size: 18px;
 font-family: ${p => p.theme.fonts.primaryFont};
-margin-top: 16px;
+color: ${p => p.theme.colors.primaryTextColor};
+font-style: italic;
+margin-top: 0px;
 margin-bottom: 0px;
 `
 export const ProjectText = styled.p`
@@ -53,7 +55,7 @@ export const RoleList = styled.ul`
 list-style: none;
 padding-left: 0px;
 padding-right: 0px;
-margin-top: 16px;
+margin-top: 10px;
 margin-bottom: 0px;
 `
 

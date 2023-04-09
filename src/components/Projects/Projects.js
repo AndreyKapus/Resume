@@ -8,10 +8,10 @@ const Projects = () => {
           <ProjectsTitle>
             Petly
           </ProjectsTitle>
-          <ProjectText>Application to create your own movie library. Team project</ProjectText>
+          <ProjectText>An app for easy search, purchase, or sale pets.</ProjectText>
           <ProjectSubtitle>
-            [ HTML, SASS, responsive design, JS, React, Node.JS Axios, REST Api,
-            parcel ]
+            [ HTML, SASS, responsive design, JS, React, Redux, Node.JS, Axios, REST Api,
+            Webpack ]
           </ProjectSubtitle>
           <ProjectRole>Role:</ProjectRole>
           <RoleList>
