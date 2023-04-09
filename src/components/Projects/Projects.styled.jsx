@@ -24,10 +24,11 @@ color: ${p => p.theme.colors.primaryTextColor};
 font-size: ${p => p.theme.fontSizes.titles};
 margin-top: 0px;
 margin-bottom: 0px;
+border-bottom: 1px solid ${p => p.theme.colors.primaryTextColor};
 `
 export const ProjectSubtitle = styled.p`
 color: ${p => p.theme.colors.primaryTextColor};
-font-size: ${p => p.theme.fontSizes.secondaryText};
+font-size: 18px;
 font-family: ${p => p.theme.fonts.primaryFont};
 margin-top: 16px;
 margin-bottom: 0px;
@@ -42,7 +43,7 @@ margin-bottom: 0px;
 
 export const ProjectRole = styled.p`
 color: ${p => p.theme.colors.primaryTextColor};
-font-size: ${p => p.theme.fontSizes.primaryText};
+font-size: ${p => p.theme.fontSizes.titles};
 font-family: ${p => p.theme.fonts.primaryFont};
 font-weight: 700;
 margin-top: 30px;

@@ -9,7 +9,7 @@ export const theme = {
   fontSizes: {
     mainTitle: '48px',
     titles: '26px',
-    primaryText: '18px',
+    primaryText: '20px',
     secondaryText: '16px',
   },
 

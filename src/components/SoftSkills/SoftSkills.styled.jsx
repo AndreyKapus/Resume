@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const SoftSkillsTitle = styled.h2`
   color: ${p => p.theme.colors.accent};
   font-family: ${p => p.theme.fonts.primaryFont};
-  font-size: 26px;
+  font-size:${p => p.theme.fontSizes.titles};
   border-bottom: 2px solid ${p => p.theme.colors.accent};
   margin-bottom: 0px;
   margin-top: 30px;
