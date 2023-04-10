@@ -34,8 +34,10 @@ export const ContactListLink = styled.a`
   :hover {
     color: ${p => p.theme.colors.accent};
     transform: scale(1.1);
-    transition-duration: 300ms;
   }
+  transition-property: transform, color;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 `;
 
 export const ContactLinkText = styled.span`
