@@ -1,6 +1,19 @@
-import {EducationTitle, EducationList, EducationSubtitle, ListItem, EducationText} from './Education.styled'
+import { useState } from 'react';
+import {EducationTitle, EducationList, EducationSubtitle, OpenCertificateBtn, ListItem, EducationText} from './Education.styled'
+import CertificateModal from 'components/Modal/Modal';
+
 
 const Education = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
   return (
     <div>
       <EducationList>
@@ -8,6 +21,9 @@ const Education = () => {
           <EducationTitle>IT school Go IT (Kyiv)</EducationTitle>
           <EducationSubtitle>( Fullstack Developer )</EducationSubtitle>
           <EducationText>HTML/CSS/SASS, Java Script, React, Redux, React native, Node.JS, REST API, Webpack, Parcel, Handlebars, MongoDB, Type Script, Git, Responsive/Adaptive design</EducationText>
+          <OpenCertificateBtn type='button' onClick={() => openModal()}>
+            CERTIFICATE
+            </OpenCertificateBtn>
         </ListItem>
         <ListItem>
           <EducationTitle>National Pedagogical Drahomanov University (Kyiv)</EducationTitle>
@@ -18,6 +34,7 @@ const Education = () => {
           </EducationText>
         </ListItem>
       </EducationList>
+      <CertificateModal isModalOpen={isOpen} closeModal={closeModal}/>
     </div>
   );
 };

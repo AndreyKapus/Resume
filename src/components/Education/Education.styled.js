@@ -40,4 +40,21 @@ font-size: ${p => p.theme.fontSizes.primaryText};
 font-family: ${p => p.theme.fonts.primaryFont};
 margin-top: 30px;
 margin-bottom: 0px;
+`;
+
+export const OpenCertificateBtn = styled.button`
+background-color: transparent;
+border: none;
+text-decoration: underline;
+cursor: pointer;
+font-family: ${p => p.theme.fonts.primaryFont};
+font-size: ${p => p.theme.fontSizes.primaryText};
+color: ${p => p.theme.colors.accent};
+margin-top: 16px;
+&:hover {
+  color: white;
+  transform: scale(1.1);
+};
+transition-property: color, transform;
+transition-duration: 300ms;
 `

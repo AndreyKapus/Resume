@@ -36,7 +36,7 @@ export const ContactListLink = styled.a`
     transform: scale(1.1);
   }
   transition-property: transform, color;
-  transition-duration: 300ms;
+  transition-duration: 250ms;
   transition-timing-function: linear;
 `;
 
@@ -50,6 +50,8 @@ export const ContactLocation = styled.p`
   :hover {
     color: ${p => p.theme.colors.accent};
     transform: scale(1.1);
-    transition-duration: 300ms;
-  }
+  };
+  transition-property: transform, color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
 `;

@@ -35,5 +35,4 @@ export const CloseMapBtn = styled.button`
     transition-duration: 300ms;
   };
   cursor: pointer;
-
 `

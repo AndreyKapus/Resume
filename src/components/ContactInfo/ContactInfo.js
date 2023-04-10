@@ -11,7 +11,7 @@ import {
   ContactLinkText,
   ContactLocation,
 } from './ContactInfo.styled';
-import MapModal from 'components/Modal/MapModal';
+import MapModal from 'components/MapModal/MapModal';
 
 const ContactInfo = () => {
   const [modalIsOpen, setIsOpen] = useState(false);

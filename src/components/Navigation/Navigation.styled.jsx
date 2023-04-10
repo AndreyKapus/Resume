@@ -27,11 +27,12 @@ export const NavigationLink = styled(NavLink)`
   color: ${p => p.theme.colors.primaryTextColor};
   padding: 8px;
   border-radius: 5px;
-  :hover {
+  &:hover {
     color: ${p => p.theme.colors.accent};
-    transition-duration: 300ms;
-
   }
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
   &.active {
     color: ${p => p.theme.colors.accent};
     box-shadow: 0px 1px 2px 0px ${p => p.theme.colors.accent},

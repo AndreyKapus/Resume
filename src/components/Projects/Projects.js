@@ -25,14 +25,14 @@ const Projects = () => {
           <ProjectLinksWrapper>
           <ProjectLink
             target="_blank"
-            href="victoriamyzyniuk.github.io/JS-project-07/"
+            href="https://team-project-react-petly.netlify.app"
             rel="noreferrer"
           >
             Live page
           </ProjectLink>
           <ProjectLink
             target="_blank"
-            href="https://github.com/VictoriaMyzyniuk/JS-project-07.git"
+            href="https://github.com/VeronikaSavluk/team-project-react-petly"
             rel="noreferrer"
           >
             Github repository
@@ -108,14 +108,14 @@ const Projects = () => {
           <ProjectLinksWrapper>
           <ProjectLink
             target="_blank"
-            href="victoriamyzyniuk.github.io/JS-project-07/"
+            href="https://victoriamyzyniuk.github.io/JS-project-07/"
             rel="noreferrer"
           >
             Live page
           </ProjectLink>
           <ProjectLink
             target="_blank"
-            href="https://github.com/VictoriaMyzyniuk/JS-project-07.git"
+            href="https://github.com/VictoriaMyzyniuk/JS-project-07"
             rel="noreferrer"
           >
             Github repository
