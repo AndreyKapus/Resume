@@ -8,7 +8,7 @@ import Projects from './Projects/Projects';
 export const App = () => {
 
   return (
-    <div>
+    <>
       <Routes>
         <Route path="/" element={<Home />}>
           <Route path="/" index element={<AboutMe />} />
@@ -18,6 +18,6 @@ export const App = () => {
         </Route>
         <Route path='*' element={<Home/>}/>
       </Routes>
-    </div>
+    </>
   );
 };

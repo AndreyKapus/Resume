@@ -6,6 +6,7 @@ export const EducationList = styled.ul`
   padding-right: 50px;
   margin-top: 30px;
   margin-bottom: 0px;
+  padding-bottom: 30px;
 `;
 
 export const ListItem = styled.li`

@@ -4,8 +4,10 @@ export const ProjectList = styled.ul`
   list-style: none;
   padding-left: 50px;
   padding-right: 50px;
-  margin-top: 30px;
+  padding-top: 30px;
   margin-bottom: 0px;
+  padding-bottom: 30px;
+  margin-top: 0px;
 `
 
 export const ProjectListItem = styled.li`
@@ -16,7 +18,9 @@ box-shadow: 0px 1px 2px 0px ${p => p.theme.colors.accent},
 2px 4px 8px 0px ${p => p.theme.colors.accent},
 2px 4px 16px 0px ${p => p.theme.colors.accent};
 padding: 30px;
-margin-top: 30px;
+&:not(:first-child) {
+  margin-top: 30px;
+};
 `
 
 export const ProjectsTitle = styled.h3`

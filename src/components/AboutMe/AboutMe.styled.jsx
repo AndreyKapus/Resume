@@ -29,3 +29,13 @@ export const AboutMeText = styled.div`
   margin-top: 30px;
   margin-bottom: 0px;
 `;
+
+export const firstPar = styled.p`
+margin-top: 30px;
+margin-bottom: 0px;
+`;
+
+export const SecondPar = styled.p`
+margin-top: 16px;
+margin-bottom: 0px;
+`;
