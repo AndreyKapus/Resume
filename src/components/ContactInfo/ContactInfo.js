@@ -59,7 +59,7 @@ const ContactInfo = () => {
         <ContactListItem>
           <ContactListLink
             target="_blank"
-            href="https://djinni.co/q/01f7dd72a3/"
+            href="https://djinni.co/q/ed8b389060/"
             rel="noreferrer"
           >
             {' '}

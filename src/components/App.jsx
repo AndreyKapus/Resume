@@ -5,6 +5,7 @@ import WorkExpirience from './WorkExpirience/WorkExpirience';
 import Education from './Education/Education';
 import Projects from './Projects/Projects';
 
+
 export const App = () => {
 
   return (

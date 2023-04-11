@@ -30,7 +30,7 @@ export const AboutMeText = styled.div`
   margin-bottom: 0px;
 `;
 
-export const firstPar = styled.p`
+export const FirstPar = styled.p`
 margin-top: 30px;
 margin-bottom: 0px;
 `;

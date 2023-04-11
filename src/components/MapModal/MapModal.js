@@ -6,7 +6,8 @@ import { useJsApiLoader } from '@react-google-maps/api';
 import {CloseMapBtn} from './Modal.styles'
 import { RiCloseLine } from 'react-icons/ri';
 
-const MARKER_KEY = "AIzaSyA18isizDhB7dc7B3Ujq4VIbYV0iA-HnDE"
+
+const MARKER_KEY = process.env.REACT_APP_API_KEY;
 
 const MapModal = ({modalIsOpen, closeModal}) => {
 
