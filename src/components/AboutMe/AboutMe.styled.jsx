@@ -21,7 +21,7 @@ export const AboutMeTittle = styled.h3`
   color: ${p => p.theme.colors.primaryTextColor};
 `;
 
-export const AboutMeText = styled.p`
+export const AboutMeText = styled.div`
   font-family: ${p => p.theme.fonts.primaryFont};
   font-size: ${p => p.theme.fontSizes.primaryText};
   color: ${p => p.theme.colors.primaryTextColor};

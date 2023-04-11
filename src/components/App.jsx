@@ -4,7 +4,6 @@ import AboutMe from './AboutMe/aboutMe';
 import WorkExpirience from './WorkExpirience/WorkExpirience';
 import Education from './Education/Education';
 import Projects from './Projects/Projects';
-import PageNotFound from './PageNotFound/PageNotFound';
 
 export const App = () => {
 
@@ -17,7 +16,7 @@ export const App = () => {
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
         </Route>
-        <Route path='*' element={<PageNotFound/>}/>
+        <Route path='*' element={<Home/>}/>
       </Routes>
     </div>
   );
