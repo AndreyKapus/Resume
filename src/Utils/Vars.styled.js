@@ -17,10 +17,5 @@ export const theme = {
     primaryFont: 'Source Code Pro',
     contactsFont: 'Verdana, sans-serif',
   },
-
-  screen: {
-    mobile: 767,
-    tablet: 1280,
-  }
 }
 
