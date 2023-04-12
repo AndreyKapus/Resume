@@ -13,6 +13,7 @@ const TechSkills = () => {
         <TechSkillsLi>Java Script</TechSkillsLi>
         <TechSkillsLi>React</TechSkillsLi>
         <TechSkillsLi>Redux</TechSkillsLi>
+        <TechSkillsLi>TypeScript</TechSkillsLi>
         <TechSkillsLi>React native</TechSkillsLi>
         <TechSkillsLi>Node.JS</TechSkillsLi>
         <TechSkillsLi>REST API</TechSkillsLi>
