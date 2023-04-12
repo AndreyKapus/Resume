@@ -15,11 +15,6 @@ const AboutMe = () => {
         JavaScript, React, TypeScript, Node.js, and experience of working in a team (Agile
         and Scrum methodology). I am responsible, determined and eager to learn
         </SecondPar>
-        <SecondPar>
-        I have knowledge and practical skills of working with HTML, CSS,
-        JavaScript, React, TypeScript, Node.js, and experience of working in a team (Agile
-        and Scrum methodology). I am responsible, determined and eager to learn
-        </SecondPar>
       </AboutMeText>
 
     </AboutMeWrapper>
