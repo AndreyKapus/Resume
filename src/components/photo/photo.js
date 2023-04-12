@@ -1,9 +1,10 @@
 import andrii from '../../images/andrii.jpg';
+import { StyledImg } from './Photo.styled';
 
 const ProfileImage = () => {
   return (
       <>
-        <img src={andrii} alt="img" width="350px" height="350px" />
+        <StyledImg src={andrii} alt="img" width="350px" height="350px" />
       </>
   );
 };

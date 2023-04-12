@@ -1,10 +1,14 @@
 import styled from '@emotion/styled';
 
 export const HomePage = styled.div`
+  display: inline-block;
+
+@media screen and (min-width: 768px) {
   display: flex;
   justify-content: center;
   padding-left: 50px;
   padding-right: 50px;
+}
 `;
 
 export const HeaderStyledWrapper = styled.div`

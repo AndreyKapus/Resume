@@ -16,7 +16,11 @@ export const theme = {
   fonts: {
     primaryFont: 'Source Code Pro',
     contactsFont: 'Verdana, sans-serif',
+  },
+
+  screen: {
+    mobile: 767,
+    tablet: 1280,
   }
 }
 
-// Georgia,serif

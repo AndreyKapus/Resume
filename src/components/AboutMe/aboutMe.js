@@ -1,5 +1,5 @@
 
-import { AboutMeWrapper, AboutMeTittle, FirstPar, SecondPar, AboutMeText } from './AboutMe.styled';
+import { AboutMeWrapper, AboutMeTittle, FirstPar, Par, AboutMeText } from './AboutMe.styled';
 
 const AboutMe = () => {
   return (
@@ -10,11 +10,14 @@ const AboutMe = () => {
         creates interesting projects, making business more efficient and life
         easier.
         </FirstPar>
-        <SecondPar>
+        <Par>
         I have knowledge and practical skills of working with HTML, CSS,
         JavaScript, React, TypeScript, Node.js, and experience of working in a team (Agile
-        and Scrum methodology). I am responsible, determined and eager to learn
-        </SecondPar>
+        and Scrum methodology). Some of my projects are presented in the "projects" section.
+        </Par>
+        <Par>
+        I am responsible, determined and eager to learn. I would be happy to work on interesting projects in a cool team.
+        </Par>
       </AboutMeText>
 
     </AboutMeWrapper>

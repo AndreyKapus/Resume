@@ -35,7 +35,7 @@ margin-top: 30px;
 margin-bottom: 0px;
 `;
 
-export const SecondPar = styled.p`
+export const Par = styled.p`
 margin-top: 16px;
 margin-bottom: 0px;
 `;
