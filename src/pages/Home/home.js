@@ -10,11 +10,13 @@ import {
   HeaderStyledWrapper,
   StyledSideBar,
   Info,
+  Container,
 } from './HomePage.styled';
 import { Outlet } from 'react-router-dom';
 
 const Home = () => {
   return (
+    <Container>
     <HomePage>
       <StyledSideBar>
         <ProfileImage />
@@ -31,6 +33,7 @@ const Home = () => {
         <Outlet />
       </HeaderStyledWrapper>
     </HomePage>
+    </Container>
   );
 };
 
