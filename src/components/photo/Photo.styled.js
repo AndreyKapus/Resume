@@ -6,7 +6,6 @@ export const StyledImg = styled.img`
   margin-left: auto;
   margin-right: auto;
   min-width: 350px auto;
-
 }
 
 `
