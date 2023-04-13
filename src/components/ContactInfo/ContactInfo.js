@@ -1,6 +1,6 @@
 import { BsTelephone } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
-import { AiOutlineLinkedin, AiOutlineIdcard } from 'react-icons/ai';
+import { AiOutlineLinkedin, AiOutlineIdcard, AiFillGithub } from 'react-icons/ai';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { useState } from 'react';
 import {
@@ -65,6 +65,17 @@ const ContactInfo = () => {
             {' '}
             <AiOutlineIdcard />
             <ContactLinkText>Djinni</ContactLinkText>
+          </ContactListLink>
+        </ContactListItem>
+        <ContactListItem>
+          <ContactListLink
+            target="_blank"
+            href="https://github.com/AndreyKapus"
+            rel="noreferrer"
+          >
+            {' '}
+            <AiFillGithub />
+            <ContactLinkText>Github</ContactLinkText>
           </ContactListLink>
         </ContactListItem>
         <ContactListItem>
