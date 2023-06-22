@@ -35,12 +35,55 @@ const Projects = () => {
             Github repository
           </ProjectLink>
           </ProjectLinksWrapper>
-
         </ProjectListItem>
+
+        <ProjectListItem>
+          <ProjectsTitle>
+            Reviews
+          </ProjectsTitle>
+          <ProjectText>An app for those seeking employment. It allows you to create, store, and track suitable job vacancies.</ProjectText>
+          <ProjectSubtitle>
+            [ HTML, CSS, Responsive design, JS, React, Redux, Node.JS, Axios, REST Api, MongoDB,
+            Webpack ]
+          </ProjectSubtitle>
+          <ProjectRole>Role:</ProjectRole>
+          <RoleList>
+            <RoleListItem>Individual project</RoleListItem>
+          </RoleList>
+          <ProjectLinksWrapper>
+          <ProjectLink
+            target="_blank"
+            href="https://reviews-client.vercel.app"
+            rel="noreferrer"
+          >
+            Live page
+          </ProjectLink>
+          <ProjectLink
+            target="_blank"
+            href="https://github.com/AndreyKapus/reviews"
+            rel="noreferrer"
+          >
+            Github repository (Frontend)
+          </ProjectLink>
+
+          <ProjectLink
+            target="_blank"
+            href="https://github.com/AndreyKapus/review-api"
+            rel="noreferrer"
+          >
+            Github repository (Api-service)
+          </ProjectLink>
+          </ProjectLinksWrapper>
+        </ProjectListItem>
+
         <ProjectListItem>
           <ProjectsTitle>Web studio</ProjectsTitle>
           <ProjectText>Website for web studio with responsive design.</ProjectText>
           <ProjectSubtitle>[ HTML, SASS, responsive design, JS ]</ProjectSubtitle>
+          <ProjectRole>Role:</ProjectRole>
+          <RoleList>
+            <RoleListItem>Individual project</RoleListItem>
+          </RoleList>
           <ProjectLinksWrapper>
           <ProjectLink
             target="_blank"
